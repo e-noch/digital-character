@@ -1,0 +1,307 @@
+
+@import url(http://reset5.googlecode.com/hg/reset.min.css);
+.outline-face {
+    width: 500px;
+    height: 600px;
+    background-color: #4f3f24;
+    border-radius: 10em;
+    border: 20px solid #000;
+    position: relative;
+    top: -69px;
+    z-index: 0;
+}
+
+.wrapper-face {
+}
+
+.contaner-face {
+    margin: 0 auto;
+    width:  500px;
+    padding-top: 160px;
+}
+
+.left-check {
+    width: 150px;
+    height: 150px;
+    background-color: #4f3f24;
+    position: relative;
+    right: 60px;
+    top: 300px;
+    border-radius: 4em;
+}
+
+.right-check {
+    width: 150px;
+    height: 170px;
+    background-color: #4f3f24;
+    position: relative;
+    left: 400px;
+    top: 140px;
+    border-radius: 4em;
+}
+.lc-outline {
+}
+.rc-outline {
+}
+
+.chin {
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+    position: relative;
+    top: 200px;
+    left: 168px;
+    border-radius: 4em;
+}
+.o-chin {
+    z-index: -10;
+}
+
+.outer-face {
+    width: 460px;
+    height: 560px;
+    background-color: #3d2e16;
+    position: relative;
+    border-radius: 10em;
+    z-index: 50;
+    bottom: 590px;
+    left: 40px;
+}
+
+.lc-outer {
+    width: 150px;
+    height: 140px;
+    background-color: #3d2e16;
+    top: 275px;
+}
+.rc-outer {
+    width: 150px;
+    height: 140px;
+    background-color: #3d2e16;
+    left: 370px;
+    top: 136px;    
+}
+
+
+
+.c-outer {
+    width: 120px;
+    height: 150px;
+    background-color: #3d2e16;
+    top: 200px;
+    left: 162px;
+}
+.hair {
+    height: 30px;
+    position: relative;
+    left: 15px;
+    z-index: -5;
+}
+.follicle {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: #313132;
+    border-radius: 100px;
+}
+.p-1 {
+    height: 200px;
+    position: relative;
+    z-index: 20;
+    bottom: 30px;
+    right: 50px;
+}
+.p-2 {
+    width: 300px;
+    position: relative;
+    bottom: 350px;
+    left: 40px;
+}
+.p-3 {
+    width: 300px;
+    position: relative;
+    bottom: 480px;
+    left: 250px;
+}
+.p-4 {
+    height: 309px;
+    position: relative;
+    z-index: 80;
+    bottom: 550px;
+    left: 490px;
+}
+.p-5 {
+    position: relative;
+    z-index: 80;
+    bottom: 800px;
+    left: 440px;
+}
+.p-6 {
+    width: 80px;
+    height: 100px;
+    position: relative;
+    background-color: #313132;
+    border-radius: 100px;
+    bottom: 950px;
+    left: 400px
+}
+.p-7 {
+    width: 80px;
+    height: 100px;
+    position: relative;
+    background-color: #313132;
+    border-radius: 100px;
+    bottom: 950px;
+    right: 0px;
+}
+
+
+
+.jafro {
+    height: 30px;
+}
+.fro {
+    background-color: #000;
+}
+.p-11 {
+    height: 200px;
+    position: relative;
+    z-index: 80;
+    bottom: 30px;
+    right: 50px;
+}
+.p-12 {
+    width: 300px;
+    position: relative;
+    bottom: 350px;
+    left: 40px;
+}
+.p-13 {
+    width: 300px;
+    position: relative;
+    bottom: 480px;
+    left: 250px;
+}
+.p-14 {
+    height: 309px;
+    position: relative;
+    bottom: 550px;
+    left: 490px;
+}
+.p-15 {
+    position: relative;
+    bottom: 800px;
+    left: 440px;
+}
+.p-16 {
+    width: 80px;
+    height: 100px;
+    position: relative;
+    border-radius: 100px;
+    bottom: 950px;
+    left: 400px
+}
+.p-17 {
+    width: 80px;
+    height: 100px;
+    position: relative;
+    border-radius: 100px;
+    bottom: 950px;
+    right: 0px;
+}
+.p-18 {
+    width: 300px;
+    height: 80px;
+    position: relative;
+    bottom: 1240px;
+    left: 230px;
+}
+.p-19 {
+    width: 300px;
+    height: 100px;
+    position: relative;
+    bottom: 1280px;
+    left: 20px;
+}
+
+
+.face {
+    position: relative;
+    z-index: 90;
+}
+.face li {
+    float: left;
+    padding-right: 157px;
+    display: block;
+    z-index: 90;
+    position: relative;
+    bottom: 456px;
+    left: 83px;
+}
+.pupil {
+    width: 30px;
+    height: 30px;
+    background-color: #000;
+    z-index: 90;
+    border-radius: 50px;
+    border: 20px solid #241c12;
+}
+.eyeball {
+    width: 140px;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    z-index: 80;
+    border-radius: 160px;
+    right: -49px;
+    bottom: 479px;
+}
+.right-eyeball {
+    width: 140px;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    z-index: 70;
+    border-radius: 160px;
+    left: 270px;
+    bottom: 575px;
+}
+
+.mouth {
+    width: 200px;
+    height: 20px;
+    background-color: #fff;
+    position: relative;
+    z-index: 60;
+    top: -579px;
+    left: 139px;
+    border-radius: 30px;
+}
+
+.nostril {
+    width: 20px;
+    height: 20px;
+    background-color: #5C492A;
+    position: relative;
+    bottom: 500px;
+    left: 180px;
+    border-radius: 20px;
+}
+.nostril-right {
+    width: 20px;
+    height: 20px;
+    background-color: #5C492A;
+    position: relative;
+    bottom: 520px;
+    left: 230px;
+    border-radius: 20px;
+}
+.bridge {
+    width: 41px;
+    height: 100px;
+    background-color: #5C492A;
+    position: relative;
+    bottom: 620px;
+    left: 194px;
+    border-radius: 20px;
+}
