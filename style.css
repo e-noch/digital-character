@@ -12,6 +12,9 @@
 }
 
 .wrapper-face {
+	height: 890px;
+	width: 100%;
+	overflow: hidden;
 }
 
 .contaner-face {
@@ -255,6 +258,7 @@
     border-radius: 160px;
     right: -49px;
     bottom: 479px;
+	overflow: hidden;
 }
 .right-eyeball {
     width: 140px;
@@ -265,7 +269,39 @@
     border-radius: 160px;
     left: 270px;
     bottom: 575px;
+	overflow: hidden;
 }
+
+
+.move-area{/*normally use body*/
+
+}
+.container {
+	width: 100%;
+	position: relative;
+	top: 38px;
+	left: 55px;
+}
+.eye {
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+.eye:after { /*pupil*/
+	position: absolute;
+	bottom: 17px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	background: #000;
+	border-radius: 50%;
+	content: " ";
+	border: 20px solid #241c12;
+}
+
+
 
 .mouth {
     width: 200px;
