@@ -12,6 +12,9 @@
 }
 
 .wrapper-face {
+	width: auto;
+	height: 900px;
+	overflow: hidden;
 }
 
 .contaner-face {
@@ -229,23 +232,35 @@
     position: relative;
     z-index: 90;
 }
-.face li {
-    float: left;
-    padding-right: 157px;
-    display: block;
-    z-index: 90;
-    position: relative;
-    bottom: 456px;
-    left: 83px;
+.move-area{/*normally use body*/
+	
+
 }
-.pupil {
-    width: 30px;
-    height: 30px;
-    background-color: #000;
-    z-index: 90;
-    border-radius: 50px;
-    border: 20px solid #241c12;
+.container {
+	width: 100%;
+	position: relative;
+	top: 38px;
+	left: 55px;
 }
+.eye {
+	position: relative;
+	display: inline-block;
+	border-radius: 50%;
+	height: 30px;
+	width: 30px;
+}
+.eye:after { /*pupil*/
+	position: absolute;
+	bottom: 17px;
+	right: 10px;
+	width: 30px;
+	height: 30px;
+	background: #000;
+	border-radius: 50%;
+	content: " ";
+	border: 12px solid #241c12;
+}
+
 .eyeball {
     width: 140px;
     height: 100px;
@@ -255,6 +270,7 @@
     border-radius: 160px;
     right: -49px;
     bottom: 479px;
+	overflow: hidden;
 }
 .right-eyeball {
     width: 140px;
@@ -265,6 +281,7 @@
     border-radius: 160px;
     left: 270px;
     bottom: 575px;
+	overflow: hidden;
 }
 
 .mouth {
@@ -304,4 +321,7 @@
     bottom: 620px;
     left: 194px;
     border-radius: 20px;
+}
+
+.move-area {
 }

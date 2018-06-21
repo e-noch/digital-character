@@ -7,8 +7,27 @@
 <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,800' rel='stylesheet' type='text/css'>
 <link rel="icon" href="http://starsailorsradio.com/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" type="text/css" href="style.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script language="javascript" type="text/javascript">
+		//This is a pen based off of Codewoofy's eyes follow mouse. It is just cleaned up, face removed, and then made to be a little more cartoony. https://codepen.io/Codewoofy/pen/VeBJEP
+		$(function(){
+			$(".move-area").mousemove(function(event) {
+			  var eye = $(".eye");
+			  var x = (eye.offset().left) + (eye.width() / 2);
+			  var y = (eye.offset().top) + (eye.height() / 2);
+			  var rad = Math.atan2(event.pageX - x, event.pageY - y);
+			  var rot = (rad * (180 / Math.PI) * -1) + 180;
+			  eye.css({
+				'-webkit-transform': 'rotate(' + rot + 'deg)',
+				'-moz-transform': 'rotate(' + rot + 'deg)',
+				'-ms-transform': 'rotate(' + rot + 'deg)',
+				'transform': 'rotate(' + rot + 'deg)'
+			  });
+			});
+		});//end loaded HTML
+	</script>
 </head>
-    <body>
+    <body class="move-area">
         <div class="wrapper-face">
             <div class="contaner-face">
             <div class="jafro">
@@ -39,12 +58,16 @@
                 <div class="chin o-chin"></div>                
             </div>
             <div class="face">
-                <ul class="eyes">
-                    <li><div class="pupil"></div></li>
-                    <li><div class="pupil"></div></li>
-                </ul>
-                <div class="eyeball"></div>
-                <div class="right-eyeball"></div>
+                <div class="eyeball">
+				  <div class="container">
+					<div class="eye"></div>
+				  </div>
+				</div>
+                <div class="right-eyeball">
+				  <div class="container">
+					<div class="eye"></div>
+				  </div>
+				</div>
                 <div class="nose">
                     <div class="nostril"></div>
                     <div class="nostril-right"></div>
